@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:sans-serif;
+    user-select:none;
+    color: white;
+}
+.memeLogo{
+height:90px;
+
+}
+.app-container{
+   max-width: 400px;
+   height: auto;
+   background-color: black;
+   margin: 30px auto;
+   border-radius: 35px; 
+   overflow: hidden;
+   border-radius: 15px;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+    padding: 6px 33px;
+    width: 100% ;
+}
+.title{
+    font-size: 16px;
+    font-weight: bold;
+    color: #94BD9C ;
+}
+.input-field{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 18px 0px;
+
+}
+input{
+    padding: 9px;
+    font-size: 15px;
+    margin: 5px 2px;
+    color: black;
+    width: 180px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    border-radius: 9px;
+}
+::placeholder{
+    color: black;
+}
+input:focus{
+    outline:2px solid #6aca7d;
+    color:black;
+}
+.generateBTN{
+    margin:1px auto;
+    padding:9px;
+    background-color:#6aca7d ;
+    color: black;
+    font-weight: bold;
+    margin-left: 30%;
+    border-radius: 9px;
+}
+.generateBTN:active {
+    background-color: #4ed08a;
+}
+.meme-image{    
+    margin: 21px auto;
+}
+.imageMeme {
+max-width: 350px;
+height: auto;
+margin: 12px 10px 20px 25px; 
+border-radius: 9px;  
+border: 2px solid white;
+
+}
+.first{
+    position: absolute;
+    top:18rem;
+    /* right: 5px; */
+    padding-left: 50px;
+
+    color: #4ed08a;
+}
+.second{
+    position: absolute;
+    top:28rem;
+    /* right: 5px; */
+    padding-left: 220px;
+
+    color: #4ed08a;
+}
